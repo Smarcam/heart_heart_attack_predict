@@ -8,8 +8,8 @@ from sklearn.preprocessing import StandardScaler
 st.title("Predicción de Infartos al Corazón")
 st.subheader("Proyecto Machine Learning")
 
-"""image = 'src/img/ataque-cardaco.jpg'
-st.image(image, caption='Ataque_Cardiaco')"""
+image = 'img/ataque-cardaco.jpg'
+st.image(image, caption='Ataque_Cardiaco')
 
 # Cache para cargar el modelo 1 vez.
 @st.cache(allow_output_mutation=True)
